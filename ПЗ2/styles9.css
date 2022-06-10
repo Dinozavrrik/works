@@ -1,0 +1,23 @@
+#wrapper{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0px auto;
+    background-color:  green;
+    }
+    #elem1{
+    background-color: rgb(236, 232, 232);
+    position: absolute;
+    left: 350px;
+    top: 250px;
+    width: 90px;
+    height: 90px;
+    }
+    #elem2{
+        background-color:  rgb(251, 247, 247);
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        width: 90px;
+        height: 90px;
+        }
