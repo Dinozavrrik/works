@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание горизонтальных и вертикальных меню</title>
+    <style>
+
+.menu4 ul{list-style-type: none; width: 200px}
+.menu4 li{margin-bottom: 5px;}
+.menu4 a:link, .menu4 a:visited{
+    text-decoration: none;
+    color: #fff;
+    font: 13px Arial;
+    border: 1px solid rgb(44, 113, 217);
+    background-color: rgb(44, 113, 217);
+    display: block;
+    padding: 0px 5px;
+    line-height: 30px;
+}
+
+.menu4 a:hover{
+    font-weight:bold;
+    color: rgb(20, 8, 237);
+    border: 1px solid rgb(0, 129, 231);
+    background-color: #fff;
+}
+
+.menu4 img{
+    background: url(...img/plane.png);
+    visibility: hidden; 
+    float: right;
+    margin: 5px 5px 5px 5px;  
+}
+
+.menu4 a:hover img {
+    visibility: visible;
+}
+ 
+    </style>
+</head>
+<body>
+ 
+    <div class="menu4">
+        <ul>
+            <li>
+                <a href="#">Главная<img src="img/plane.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#">Новости<img src="img/plane.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#">Контакты<img src="img/plane.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#">О компании<img src="img/plane.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#">Как добраться<img src="img/plane.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание горизонтальных и вертикальных меню</title>
+    <style>
+
+.menu7 ul{list-style-type: none;}
+.menu7 li{margin-right: 4px; float: left;}
+.menu7 a:link, .menu7 a:visited{
+    filter: opacity(0.4)grayscale(1);
+    text-decoration: none;
+    display: inline-grid;
+    color: rgb(0, 201, 201);
+    font: 14px Arial;
+    padding-left:10px;
+    padding-bottom: 10px;
+}
+.menu7 a:hover{
+    color: aqua;
+    filter: none;
+}
+
+.menu7 img{
+    background: url(...img/plane.png);
+    height: 60px;
+    width: 60px;
+    color: rgb(201,201,201);
+}
+.menu7 a:hover img{
+    color: rgb(0,129,231);
+}
+
+    </style>
+</head>
+<body>
+ 
+    <div class="menu7">
+        <ul>
+            <li>
+                <a href="#"><img src="img/tour2.png" alt="">авиабилеты</a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour1.png" alt="">чартеры</a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour3.png" alt="">ж/д билеты</a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour4.png" alt="">гостиница</a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour5.png" alt="">туризм</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
