@@ -9,12 +9,12 @@ if (year < 2011) {
 }
 
 //2)
-var znak = prompt('Введите любое число', '');
-if (znak > 0) {
+var x = prompt('Введите любое число', '');
+if (x > 0) {
 alert('1');
-} else if (znak < 0) {
+} else if (x < 0) {
 alert('-1');
-} else if (znak == 0) {
+} else if (x == 0) {
 alert('0');
 }
 else{
@@ -22,22 +22,22 @@ else{
 }
 
 //3)
-let userName = prompt("Кто там?", '');
+let userName = prompt("Имя пользователя", '');
 
 if (userName === 'Админ') {
 
-  let pass = prompt('Пароль?', '');
+  let pass = prompt('Пароль', '');
 
-  if (pass === 'Я главный') {
-    alert( 'Здравствуйте!' );
+  if (pass === 'Черный Властелин') {
+    alert( 'Добро пожаловать' );
   } else if (pass === '' || pass === null) {
-    alert( 'Отменено' );
+    alert( 'Вход отменен' );
   } else {
-    alert( 'Неверный пароль' );
+    alert( 'Пароль неверный' );
   }
 
 } else if (userName === '' || userName === null) {
-  alert( 'Отменено' );
+  alert( 'Вход отменен' );
 } else {
   alert( "Я вас не знаю" );
 }
@@ -50,7 +50,7 @@ alert(result);
 
 //5)
 var login = prompt('Введите логин:', '');
-let message = (login == 'Сотрудник') ? 'Привет' :
+let message = (login == 'Вася') ? 'Привет' :
   (login == 'Директор') ? 'Здравствуйте' :
   (login == '') ? 'Нет логина':
    '';
