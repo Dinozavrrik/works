@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script>function hello() {
+const name = prompt('Имя пользователя');
+if (name) {
+    document.querySelector('#welcome').innerHTML = `Привет <b>${name}</b> и добро пожаловать!`;
+    alert(`Привет ${name} и добро пожаловать!`);
+} else {
+    document.querySelector('#welcome').innerHTML = 'Вы нажали кнопку Отмена';
+    alert('Вы нажали кнопку Отмена');
+}
+}</script>
+</head>
+<body>
+    <div id="welcome"></div>
+
+    <form action="javascript:hello()">
+        <input type="submit" id='welcome' value="Отобразить приветствие">
+    </form>
+</body>
+</html>
