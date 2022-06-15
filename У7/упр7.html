@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Keywords" content="банк, вклад, поиск вклада, выгодные условия, найти вклад, банк России">
+    <meta name="description" content="Поиск вклада на выгодных условиях.">
+    <link rel="stylesheet" href="vklad.css"
+    
+</head>
+<body>
+    <form class="form" name="Poisk vklada" method="post" action="IntVklad.php" accept-charset="UTF-8">
+        <h1>Найти вклад на выгодных условиях</h1>
+        <p class="p1"><label><b>Срок вклада</b></label>
+            <select name="Srok vklada">
+            <option value="1">1 месяц</option>
+            <option value="2">3 месяца</option>
+            <option value="3">6 месяцев</option>
+            <option value="4">9 месяцев</option>
+            <option value="5">1 год</option>
+            <option value="6">1,5 года</option>
+          </select></p>
+
+        <p class="p2"><label><b>Название вклада:</b></label>
+            <input type="textarea"></p>
+
+        <p class="p3"><label><b>Капитализация</b></label>
+            <select name="Kapital">
+                <option value="1">Да</option>
+                <option value="2">Нет</option></select></p>
+
+        <p class="p4"><label><b>Возможность пополнения:</b></label></p>
+            <input id="radio_1" type="radio" value="1" />
+            <label for="radio_1">Да</label><br />
+            <input id="radio_2" type="radio" value="2" />
+            <label for="radio_2">Нет</label><br /></p>
+
+        <p class="p5"><label><b>Досрочное расторжение вклада:</b></label></p>
+            <input id="radio_1" type="radio" value="1" />
+            <label for="radio_1">Да</label><br />
+            <input id="radio_2" type="radio" value="2" />
+            <label for="radio_2">Нет</label><br />
+            
+        <p class="p6"><label>О<b>ткрытие on-line:</b></label></p>
+            <input id="radio_1" type="radio" value="1" />
+            <label for="radio_1">Да</label><br />
+            <input id="radio_2" type="radio" value="2" />
+            <label for="radio_2">Нет</label><br />
+
+        <p class="p7"><input type="submit" value="Найти"> <input type="reset" value="Очистить"></p>
+
+        <p class="p8"><h5>Спасибо за визит!</h5></p>
+    </form>
+    
+</body>
+</html>
