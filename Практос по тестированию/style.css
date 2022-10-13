@@ -1,0 +1,38 @@
+html{
+    /* Это изображение отобразиться на всю страницу */
+    background:url('фон.jpg') no-repeat center center;
+
+    /* Принудительно указываем высоту равную 100% от высоты окна браузера */
+    min-height:100%;
+
+    /* Магия */
+    background-size:cover;}
+
+.ul{
+    list-style: none;
+    margin:0;
+    padding: 20px;
+}
+.a{
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+.a:hover{
+    color: #6b6b6b;
+    text-decoration: none;
+}
+.li{
+    display: inline; 
+}
+table {
+    border: 1px solid #000000;
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 1px solid #000000;
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 1px solid #000000;}
